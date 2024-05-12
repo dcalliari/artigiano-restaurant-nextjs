@@ -26,8 +26,16 @@ const items: ISidebarItem[] = [
     path: '/location',
   },
   {
+    name: 'COMMUNITY',
+    path: '/community',
+  },
+  {
     name: 'CONTACT',
     path: '/contact',
+  },
+  {
+    name: 'JOIN OUR TEAM',
+    path: '/jobs',
   },
 ]
 
