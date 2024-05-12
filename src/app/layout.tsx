@@ -16,11 +16,11 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="bg-neutral-900">
+    <html lang="en" className="bg-zinc-900">
       <body className={inter.className}>
         <div className="flex h-screen w-full">
           <Sidebar />
-          <div className="ml-64 flex size-full flex-col p-4">{children}</div>
+          <div className="ml-64 flex size-full flex-col">{children}</div>
         </div>
       </body>
     </html>

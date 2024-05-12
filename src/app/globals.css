@@ -21,3 +21,33 @@
     text-wrap: balance;
   }
 }
+
+:root {
+  --primary: rgba(122, 122, 122, 0.1);
+  --secondary: rgba(194, 194, 194, 0.3);
+  --tertiary: rgba(194, 194, 194, 0.5);
+}
+
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 1.1rem;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--primary);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--tertiary);
+}
