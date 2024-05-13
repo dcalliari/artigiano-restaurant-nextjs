@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Link from 'next/link'
+import Button from '../button'
 
 interface BoxRightProps {
   name: string
@@ -26,11 +26,7 @@ const BoxRight = ({
           {name}
         </h2>
         <p className="mb-16 font-serif text-lg">{description}</p>
-        <Link href={buttonHref}>
-          <button className="btn hover:border-gray-500 hover:text-gray-500">
-            {button}
-          </button>
-        </Link>
+        <Button href={buttonHref} title={button} />
       </div>
     </div>
   )
