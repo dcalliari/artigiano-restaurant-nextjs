@@ -8,8 +8,8 @@ const FetchImages = async ({ images }: { images: Array<string> }) => {
           {images.slice(0, Math.ceil(images.length / 2)).map((el: string) => (
             <li key={el}>
               <Image
-                width={2000}
-                height={2000}
+                width={1800}
+                height={1200}
                 alt={el}
                 src={`/photos/${el}`}
                 className="size-full px-2 pt-4"
@@ -23,8 +23,8 @@ const FetchImages = async ({ images }: { images: Array<string> }) => {
           {images.slice(Math.ceil(images.length / 2)).map((el: string) => (
             <li key={el}>
               <Image
-                width={2000}
-                height={2000}
+                width={1800}
+                height={1200}
                 alt={el}
                 src={`/photos/${el}`}
                 className="size-full px-2 pt-4"
