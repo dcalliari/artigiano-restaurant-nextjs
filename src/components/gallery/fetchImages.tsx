@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-const FetchImages = async ({ images }: { images: Array<string> }) => {
+export async function FetchImages({ images }: { images: Array<string> }) {
   return (
     <div className="flex px-2">
       <div className="w-1/2">
@@ -36,5 +36,3 @@ const FetchImages = async ({ images }: { images: Array<string> }) => {
     </div>
   )
 }
-
-export default FetchImages

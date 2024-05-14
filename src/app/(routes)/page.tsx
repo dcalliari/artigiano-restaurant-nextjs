@@ -1,8 +1,8 @@
-import Gallery from '@/components/gallery'
-import BoxLeft from '@/components/box/boxLeft'
-import BoxRight from '@/components/box/boxRight'
+import { BoxLeft } from '@/components/box/BoxLeft'
+import { BoxRight } from '@/components/box/BoxRight'
+import { Gallery } from '@/components/gallery'
 
-const HomePage = () => {
+export default function HomePage() {
   return (
     <div className="flex flex-col">
       <Gallery />
@@ -34,5 +34,3 @@ const HomePage = () => {
     </div>
   )
 }
-
-export default HomePage

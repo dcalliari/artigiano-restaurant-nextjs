@@ -1,12 +1,12 @@
-import { useMemo } from 'react'
 import { usePathname, useRouter } from 'next/navigation'
+import { useMemo } from 'react'
 
-interface ISidebarItem {
+type ISidebarItem = {
   name: string
   path: string
 }
 
-const SidebarItem = ({ item }: { item: ISidebarItem }) => {
+export function SidebarItem({ item }: { item: ISidebarItem }) {
   const { name, path } = item
   const router = useRouter()
   const pathname = usePathname()
@@ -32,5 +32,3 @@ const SidebarItem = ({ item }: { item: ISidebarItem }) => {
     </>
   )
 }
-
-export default SidebarItem

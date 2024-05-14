@@ -1,9 +1,9 @@
-import path from 'path'
+import { FetchImages } from './FetchImages'
 import { promises as fs } from 'fs'
 
-import FetchImages from './fetchImages'
+import path from 'path'
 
-export default async function Gallery() {
+export async function Gallery() {
   const imageDirectory = path.join(process.cwd(), 'public/photos')
   const imageFilenames = await fs.readdir(imageDirectory)
 

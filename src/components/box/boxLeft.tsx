@@ -1,7 +1,8 @@
-import Image from 'next/image'
-import Button from '../button'
+import { Button } from '@/components/Button'
 
-interface BoxLeftProps {
+import Image from 'next/image'
+
+type BoxLeftProps = {
   name: string
   description: string
   button: string
@@ -9,13 +10,13 @@ interface BoxLeftProps {
   imageSrc: string
 }
 
-const BoxLeft = ({
+export function BoxLeft({
   name,
   description,
   button,
   buttonHref,
   imageSrc,
-}: BoxLeftProps) => {
+}: BoxLeftProps) {
   return (
     <div className="m-2 mt-4 flex flex-row">
       <div className="mx-2 w-1/2 bg-zinc-900 px-12 py-24 text-white">
@@ -31,5 +32,3 @@ const BoxLeft = ({
     </div>
   )
 }
-
-export default BoxLeft
