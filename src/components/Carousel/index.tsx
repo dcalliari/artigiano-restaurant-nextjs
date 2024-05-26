@@ -8,6 +8,7 @@ type CarouselProps = {
 }
 
 export function Carousel({ images }: CarouselProps) {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [imageIndex, setImageIndex] = useState(0)
 
   // const goToPreviousImage = () => {
