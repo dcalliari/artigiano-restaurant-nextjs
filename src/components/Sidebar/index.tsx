@@ -9,35 +9,35 @@ type ISidebarItem = {
 
 const items: ISidebarItem[] = [
   {
-    name: 'RESERVE',
+    name: 'RESERVAS',
     path: '/reserve',
   },
   {
-    name: 'ORDER NOW!',
+    name: 'PEÇA AGORA!',
     path: '/order',
   },
   {
-    name: 'MENUS',
+    name: 'CARDÁPIOS',
     path: '/menus',
   },
   {
-    name: 'OUR STORY',
+    name: 'NOSSA HISTÓRIA',
     path: '/about',
   },
   {
-    name: 'HOURS & LOCATION',
+    name: 'HORARIOS & LOCALIZAÇÃO',
     path: '/location',
   },
   {
-    name: 'COMMUNITY',
+    name: 'COMUNIDADE',
     path: '/community',
   },
   {
-    name: 'CONTACT',
+    name: 'CONTATO',
     path: '/contact',
   },
   {
-    name: 'JOIN OUR TEAM',
+    name: 'TRABALHE CONOSCO',
     path: '/jobs',
   },
 ]

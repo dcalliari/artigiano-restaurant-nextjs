@@ -27,7 +27,12 @@ export function BoxLeft({
         <Button href={buttonHref} title={button} />
       </div>
       <div className="relative mx-2 w-1/2 bg-slate-500">
-        <Image src={imageSrc} alt="Image" fill={true} objectFit="cover" />
+        <Image
+          src={imageSrc}
+          alt="Image"
+          fill={true}
+          className="object-cover"
+        />
       </div>
     </div>
   )

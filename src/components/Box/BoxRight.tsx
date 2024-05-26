@@ -20,7 +20,12 @@ export function BoxRight({
   return (
     <div className="m-2 mb-4 flex flex-row">
       <div className="relative mx-2 w-1/2 bg-slate-500">
-        <Image src={imageSrc} alt="Image" fill={true} objectFit="cover" />
+        <Image
+          src={imageSrc}
+          alt="Image"
+          fill={true}
+          className="object-cover"
+        />
       </div>
       <div className="mx-2 w-1/2 bg-zinc-900 px-12 py-24 text-white">
         <h2 className="mb-4 text-wrap font-serif text-3xl italic text-white lg:w-3/4 xl:w-1/2">

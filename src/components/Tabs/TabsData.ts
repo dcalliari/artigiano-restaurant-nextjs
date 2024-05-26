@@ -1,88 +1,97 @@
 export const tabs = [
   {
     id: 1,
-    tabTitle: 'LUNCHEON',
+    tabTitle: 'ALMOÇO',
     sections: [
       {
-        title: 'BAR BITES & RELISHES',
+        title: 'PEQUENOS PRATOS & ACOMPANHAMENTOS',
         content: [
-          { name: 'Green Olives & Marcona Almonds', price: '12' },
-          { name: 'Smoked Whitefish Salad & Rye Crisps', price: '17' },
-          { name: 'Camembert, Baguette & Cherry Gastrique', price: '19' },
-          { name: 'Sliced Round Roast With Horseradish', price: '17' },
-          { name: 'Pâté Grand-mère', price: '18' },
+          { name: 'Azeitonas Verdes & Amêndoas Marcona', price: '12' },
           {
-            name: 'Long Island Clams, Half dozen, Raw or Roasted',
+            name: 'Salada de Salmão Defumado & Crisps de Centeio',
+            price: '17',
+          },
+          { name: 'Camembert, Baguete & Gastrique de Cereja', price: '19' },
+          { name: 'Rosbife Fatiado com Rábano', price: '17' },
+          { name: 'Patê Grand-mère', price: '18' },
+          {
+            name: 'Amêijoas de Long Island, Meia dúzia, Cruas ou Grelhadas',
             price: '21',
           },
           {
-            name: 'East Coast Oysters, Half dozen, Raw or Rockefeller',
+            name: 'Ostras da Costa Leste, Meia dúzia, Cruas ou Rockefeller',
             price: '29',
           },
         ],
       },
       {
-        title: 'LUNCHEON FARE',
+        title: 'PRATOS DO ALMOÇO',
         content: [
           {
-            name: 'Classic Omelette, Fine Herbs and a Frisee Salad',
+            name: 'Omelete Clássica, Finas Ervas e Salada Frisée',
             price: '19',
           },
-          { name: 'Roast Beef Sandwich au Jus', price: '25' },
-          { name: 'Heritage Chicken Sandwich, Melted Gruyere', price: '23' },
-          { name: 'Filet of Sea Bass', price: '34' },
+          { name: 'Sanduíche de Rosbife com Molho', price: '25' },
           {
-            name: 'Swordfish, Blistered Tomatoes, Ruby Streaks & Aioli',
+            name: 'Sanduíche de Frango Caipira, Gruyère derretido',
+            price: '23',
+          },
+          { name: 'Filé de Robalo', price: '34' },
+          {
+            name: 'Espadarte, Tomates Raspadinhos, Molho Rubi & Aioli',
             price: '33',
           },
           {
-            name: 'Strip Steak Pierre, Shallot-peppercorn Jus & Bok Choy',
+            name: 'Contrafilé Pierre, Molho de Chalota e Pimenta do Reino com Bok Choy',
             price: '29',
           },
         ],
       },
       {
-        title: 'SALADS & VEGETABLES',
+        title: 'SALADAS & VEGETAIS',
         content: [
-          { name: 'Arugula San Marco', price: '19' },
+          { name: 'Rúcula San Marco', price: '19' },
           {
-            name: 'Spring Greens, Snap Peas, Cucumbers & Dijon Vinaigrette',
+            name: 'Verduras da Primavera, Ervilhas, Pepinos & Vinagrete de Dijon',
             price: '22',
           },
-          { name: 'Mixed Chicories, Hazelnuts & Stilton', price: '24' },
-          { name: 'Favas, Fresh Chèvre & Grilled Sourdough', price: '24' },
+          { name: 'Chicória Mista, Avelãs & Stilton', price: '24' },
+          { name: 'Favas, Queijo Fresco & Sourdough Grelhado', price: '24' },
           {
-            name: "Chicken Breast 'Waldorf', Celery, Walnuts, Apples & Turmeric",
+            name: "Peito de Frango 'Waldorf', Aipo, Nozes, Maçãs & Cúrcuma",
             price: '25',
           },
         ],
       },
       {
-        title: 'SIDES',
+        title: 'ACOMPANHAMENTOS',
         content: [
-          { name: 'Chopped Spinach a la Noialles', price: '16' },
-          { name: 'Olive Oil Whipped Potatoes', price: '15' },
-          { name: 'Grilled Broccoli, Garlic Confit & Lemon', price: '15' },
+          { name: 'Espinafre Picado à la Noisette', price: '16' },
+          { name: 'Purê de Batatas com Azeite', price: '15' },
+          { name: 'Brócolis Grelhados, Confit de Alho & Limão', price: '15' },
         ],
       },
       {
-        title: 'MACARONI',
+        title: 'MASSAS',
         content: [
-          { name: 'Hand-cut Angel Hair Francese', price: '19' },
-          { name: 'Spaghetti Anchoiade', price: '23' },
-          { name: 'Shrimp Spaghetti a la Camille', price: '34' },
+          { name: 'Tagliatelle à Francesa Feito à Mão', price: '19' },
+          { name: 'Espaguete à Anchoiada', price: '23' },
+          { name: 'Espaguete com Camarão à la Camille', price: '34' },
           { name: 'Bucatini Baczynsky', price: '27' },
-          { name: 'Spinach-Ricotta Ravioli', price: '25' },
+          { name: 'Ravioli de Espinafre e Ricota', price: '25' },
         ],
       },
       {
-        title: 'DESSERT & CHEESE',
+        title: 'SOBREMESA & QUEIJOS',
         content: [
-          { name: 'Dark Chocolate Tart, Sour Cream & Sel Gris', price: '15' },
-          { name: 'Rum Pineapple Upside Down Cake', price: '16' },
-          { name: 'Chocolate Chunk Cookies (Half Dozen)', price: '14' },
           {
-            name: 'Bayley Hazen Blue, Cabot Clothbound Cheddar, Marcona Almonds & Catskill Honey',
+            name: 'Torta de Chocolate Amargo, Creme de Leite Fresco & Sel Gris',
+            price: '15',
+          },
+          { name: 'Bolo de Abacaxi Invertido com Rum', price: '16' },
+          { name: 'Biscoitos de Chocolate (Meia Dúzia)', price: '14' },
+          {
+            name: 'Queijos: Bayley Hazen Blue, Cabot Clothbound Cheddar, Amêndoas Marcona & Mel de Catskill',
             price: '24',
           },
         ],
@@ -91,94 +100,103 @@ export const tabs = [
   },
   {
     id: 2,
-    tabTitle: 'DINNER',
+    tabTitle: 'JANTAR',
     sections: [
       {
-        title: 'BAR BITES & RELISHES',
+        title: 'PEQUENOS PRATOS & ACOMPANHAMENTOS',
         content: [
-          { name: 'Green Olives & Marcona Almonds', price: '12' },
-          { name: 'Cheddar Crackers', price: '10' },
-          { name: 'Smoked Whitefish Salad & Rye Crisps', price: '17' },
-          { name: 'Camembert, Baguette & Cherry Gastrique', price: '19' },
-          { name: 'Sliced Round Roast With Horseradish', price: '17' },
+          { name: 'Azeitonas Verdes & Amêndoas Marcona', price: '12' },
+          { name: 'Biscoitos de Cheddar', price: '10' },
+          {
+            name: 'Salada de Salmão Defumado & Crisps de Centeio',
+            price: '17',
+          },
+          { name: 'Camembert, Baguete & Gastrique de Cereja', price: '19' },
+          { name: 'Roast Beef Fatiado com Rábano', price: '17' },
           { name: 'Pâté Grand-mère', price: '18' },
           {
-            name: 'Long Island Clams, Half dozen, Raw or Roasted',
+            name: 'Amêijoas de Long Island, Meia dúzia, Cruas ou Grelhadas',
             price: '21',
           },
           {
-            name: 'East Coast Oysters, Half dozen, Raw or Rockefeller',
+            name: 'Ostras da Costa Leste, Meia dúzia, Cruas ou Rockefeller',
             price: '29',
           },
         ],
       },
       {
-        title: 'MEAT & FISH',
+        title: 'CARNES & PEIXES',
         content: [
           {
-            name: 'Filet of Sea Bass, Black Butter, Capers & Pea Greens',
+            name: 'Filé de Robalo, Beurre Noir, Alcaparras & Brócolis',
             price: '34',
           },
           {
-            name: 'Swordfish, Blistered Tomatoes, Ruby Streaks & Aioli',
+            name: 'Espadarte, Tomates Raspadinhos, Molho Rubi & Aioli',
             price: '33',
           },
-          { name: 'Heritage Pork Chop, Apple Sauce & Watercress', price: '36' },
           {
-            name: 'Roasted Heritage Chicken, Escarolle & Chanterelles',
+            name: 'Costeleta de Porco Caipira, Compota de Maçã & Agrião',
+            price: '36',
+          },
+          {
+            name: 'Frango Caipira Assado, Escarola & Cantarelos',
             price: '34',
           },
           {
-            name: 'Strip Steak Lorenz with Shiitake Bordelaise',
+            name: 'Contrafilé Lorenz ao molho Bordalês com Shiitake',
             price: '45',
           },
         ],
       },
       {
-        title: 'SALADS & VEGETABLES',
+        title: 'SALADAS & VEGETAIS',
         content: [
-          { name: 'Arugula San Marco', price: '19' },
-          { name: 'Mixed Chicories, Hazelnuts & Stilton', price: '24' },
+          { name: 'Rúcula San Marco', price: '19' },
+          { name: 'Chicória Mista, Avelãs & Stilton', price: '24' },
           {
-            name: 'Spring Greens, Snap Peas, Cucumbers & Dijon Vinaigrette',
+            name: 'Verduras da Primavera, Ervilhas, Pepinos & Vinagrete de Dijon',
             price: '22',
           },
-          { name: 'Favas, Fresh Chèvre & Grilled Sourdough', price: '24' },
+          { name: 'Favas, Queijo Fresco & Sourdough Grelhado', price: '24' },
           {
-            name: "Chicken Breast 'Waldorf', Celery, Walnuts, Apples & Turmeric",
+            name: "Peito de Frango 'Waldorf', Aipo, Nozes, Maçãs & Cúrcuma",
             price: '25',
           },
         ],
       },
       {
-        title: 'SIDES',
+        title: 'ACOMPANHAMENTOS',
         content: [
-          { name: 'Chopped Spinach a la Noialles', price: '16' },
-          { name: 'Olive Oil Whipped Potatoes', price: '15' },
-          { name: 'Grilled Broccoli, Garlic Confit & Lemon', price: '15' },
+          { name: 'Espinafre Picado à la Noisette', price: '16' },
+          { name: 'Purê de Batatas com Azeite', price: '15' },
+          { name: 'Brócolis Grelhados, Confit de Alho & Limão', price: '15' },
         ],
       },
       {
-        title: 'MACARONI',
+        title: 'MASSAS',
         content: [
-          { name: 'Hand-cut Angel Hair Francese', price: '19' },
-          { name: 'Spaghetti Anchoiade', price: '23' },
-          { name: 'Shrimp Spaghetti a la Camille', price: '34' },
+          { name: 'Tagliatelle à Francesa Feito à Mão', price: '19' },
+          { name: 'Espaguete à Anchoiada', price: '23' },
+          { name: 'Espaguete com Camarão à la Camille', price: '34' },
           { name: 'Bucatini Baczynsky', price: '27' },
-          { name: 'Spinach-Ricotta Ravioli', price: '25' },
-          { name: 'Lemon Fettuccine with Favas & Pecorino', price: '26' },
+          { name: 'Ravioli de Espinafre e Ricota', price: '25' },
+          { name: 'Fettuccine ao Limão com Favas & Pecorino', price: '26' },
         ],
       },
       {
-        title: 'DESSERT & CHEESE',
+        title: 'SOBREMESA & QUEIJOS',
         content: [
-          { name: 'Dark Chocolate Tart, Sour Cream & Sel Gris', price: '15' },
-          { name: 'Warm Apple Crisp a la Mode', price: '15' },
-          { name: 'Rhubarb & Raspberry Trifle', price: '16' },
-          { name: 'Rum Pineapple Upside Down Cake', price: '16' },
-          { name: 'Chocolate Chunk Cookies (Half Dozen)', price: '14' },
           {
-            name: 'Bayley Hazen Blue, Cabot Clothbound Cheddar, Marcona Almonds & Catskill Honey',
+            name: 'Torta de Chocolate Amargo, Creme de Leite Fresco & Sel Gris',
+            price: '15',
+          },
+          { name: 'Crumble de Maçã Quente à la Mode', price: '15' },
+          { name: 'Triffle de Ruibarbo & Framboesa', price: '16' },
+          { name: 'Bolo de Abacaxi Invertido com Rum', price: '16' },
+          { name: 'Biscoitos de Chocolate (Meia Dúzia)', price: '14' },
+          {
+            name: 'Queijos: Bayley Hazen Blue, Cabot Clothbound Cheddar, Amêndoas Marcona & Mel de Catskill',
             price: '24',
           },
         ],
@@ -190,115 +208,121 @@ export const tabs = [
     tabTitle: 'BRUNCH',
     sections: [
       {
-        title: 'BAR BITES & RELISHES',
+        title: 'PEQUENOS PRATOS & ACOMPANHAMENTOS',
         content: [
           { name: 'La Cabra Croissant', price: '6' },
-          { name: "Poppy's Popover", price: '8' },
-          { name: 'Smoked Whitefish Salad & Rye Crisps', price: '17' },
-          { name: 'Camembert, Baguette & Cherry Gastrique', price: '19' },
+          { name: 'Pãozinho de Reimão', price: '8' },
+          {
+            name: 'Salada de Salmão Defumado & Crisps de Centeio',
+            price: '17',
+          },
+          { name: 'Camembert, Baguete & Gastrique de Cereja', price: '19' },
           { name: 'Pâté Grand-mère', price: '18' },
           {
-            name: 'Long Island Clams, Half dozen, Raw or Roasted',
+            name: 'Amêijoas de Long Island, Meia dúzia, Cruas ou Grelhadas',
             price: '21',
           },
           {
-            name: 'East Coast Oysters, Half dozen, Raw or Rockefeller',
+            name: 'Ostras da Costa Leste, Meia dúzia, Cruas ou Rockefeller',
             price: '29',
           },
         ],
       },
       {
-        title: 'BRUNCH MAINS',
+        title: 'PRATOS DO BRUNCH',
         content: [
-          { name: 'Blueberry Pancakes', price: '18' },
+          { name: 'Panquecas de Mirtilo', price: '18' },
           {
-            name: 'Classic Omelette, Fine Herbs and a Frisee Salad',
+            name: 'Omelete Clássica, Finas Ervas e Salada Frisée',
             price: '19',
           },
           {
-            name: 'Buck Rarebit: Cheddar Toast with Spiced Sunny Side Eggs add City Ham',
+            name: 'Torrada com Cheddar, Ovos Fritos Temperados e Presunto City',
             price: '24',
           },
           {
-            name: 'Hard-scrambled Nova, Eggs & Onions with Seeded Toast',
+            name: 'Ovos Mexidos com Nova Scotia, Cebola e Pão com Sementes',
             price: '23',
           },
           {
-            name: 'Strip Steak Lorenz, Melted Onions & Sunny Side Eggs',
+            name: 'Contrafilé Lorenz, Cebolas Grelhadas & Ovos Fritos',
             price: '33',
           },
           {
-            name: 'Roast Beef Sandwich au Jus with Horseradish',
+            name: 'Sanduíche de Roast Beef com Molho e Rábano',
             price: '25',
           },
           {
-            name: 'Heritage Chicken Sandwich, Melted Gruyere Roasted Heritage Chicken, Crisp Toasted Baguette, Melted Gruyere',
+            name: 'Sanduíche de Frango Caipira, Gruyère derretido, Frango Caipira Assado, Baguete Tostada Crocante, Gruyère derretido',
             price: '23',
           },
         ],
       },
       {
-        title: 'SALADS & VEGETABLES',
+        title: 'SALADAS & VEGETAIS',
         content: [
-          { name: 'Arugula San Marco', price: '19' },
+          { name: 'Rúcula San Marco', price: '19' },
           {
-            name: 'Spring Greens, Snap Peas, Cucumbers & Dijon Vinaigrette',
+            name: 'Verduras da Primavera, Ervilhas, Pepinos & Vinagrete de Dijon',
             price: '22',
           },
-          { name: 'Mixed Chicories, Hazelnuts & Stilton', price: '24' },
+          { name: 'Chicória Mista, Avelãs & Stilton', price: '24' },
           {
-            name: "Chicken Breast 'Waldorf', Celery, Walnuts, Apples & Turmeric",
+            name: "Peito de Frango 'Waldorf', Aipo, Nozes, Maçãs & Cúrcuma",
             price: '25',
           },
         ],
       },
       {
-        title: 'SIDES',
+        title: 'ACOMPANHAMENTOS',
         content: [
-          { name: 'Grilled Baczynsky Bacon', price: '14' },
-          { name: 'Home Fries', price: '12' },
-          { name: 'Avocado', price: '6' },
+          { name: 'Bacon Grelhado Baczynsky', price: '14' },
+          { name: 'Batatas Fritas Caseiras', price: '12' },
+          { name: 'Abacate', price: '6' },
         ],
       },
       {
-        title: 'MACARONI',
+        title: 'MASSAS',
         content: [
-          { name: 'Hand-cut Angel Hair Francese', price: '19' },
+          { name: 'Tagliatelle à Francesa Feito à Mão', price: '19' },
           { name: 'Bucatini Baczynsky', price: '27' },
-          { name: 'Spinach-Ricotta Ravioli', price: '25' },
+          { name: 'Ravioli de Espinafre e Ricota', price: '25' },
         ],
       },
       {
-        title: 'DESSERT',
+        title: 'SOBREMESA',
         content: [
-          { name: 'Dark Chocolate Tart, Sour Cream & Sea Salt', price: '15' },
-          { name: 'Rum Pineapple Upside Down Cake', price: '16' },
-          { name: 'Chocolate Chunk Cookies (Half Dozen)', price: '14' },
+          {
+            name: 'Torta de Chocolate Amargo, Creme de Leite Fresco & Sal Marinho',
+            price: '15',
+          },
+          { name: 'Bolo de Abacaxi Invertido com Rum', price: '16' },
+          { name: 'Biscoitos de Chocolate (Meia Dúzia)', price: '14' },
         ],
       },
     ],
   },
   {
     id: 4,
-    tabTitle: 'COCKTAILS',
+    tabTitle: 'COQUETÉIS',
     sections: [
       {
-        title: 'SPRING COCKTAILS',
+        title: 'COQUETÉIS PRIMAVERA',
         content: [
           {
-            name: "Calliari's Icebox Martini",
-            price: 'Gin or Vodka, Twist or Olives',
+            name: 'Artigiano Icebox Martini',
+            price: 'Gim ou Vodka, Twist ou Azeitonas',
           },
           {
-            name: "Calliari's Icebox Manhattan",
-            price: 'Old Overholt Rye, Cocchi Torino, Angostura',
+            name: 'Artigiano Icebox Manhattan',
+            price: 'Centeio Old Overholt, Cocchi Torino, Angostura',
           },
           {
-            name: "Calliari's Icebox Negroni",
-            price: 'Plymouth Gin, Campari, Cocchi Torino',
+            name: 'Artigiano Icebox Negroni',
+            price: 'Gim Plymouth, Campari, Cocchi Torino',
           },
           {
-            name: 'Specialino Spritz',
+            name: 'Spritz Specialino',
             price: 'Cappelletti & Prosecco',
           },
           {
@@ -306,33 +330,33 @@ export const tabs = [
             price: 'Campari, Cocchi Torino, Prosecco',
           },
           {
-            name: 'Hello, Vera',
-            price: 'Vodka, Chareau Aloe, Hibiscus',
+            name: 'Olá, Vera',
+            price: 'Vodka, Chareau Aloe, Hibisco',
           },
           {
-            name: 'Rum Punch',
-            price: 'Diplomatico, El Dorado Rum, Angostura & Lime',
+            name: 'Ponche de Rum',
+            price: 'Diplomático, Rum El Dorado, Angostura e Lima',
           },
           {
-            name: "Liliko'i Margarita",
-            price: 'Arette Reposado, Ancho Reyes, Passionfruit',
+            name: "Margarita Liliko'i",
+            price: 'Arette Reposado, Ancho Reyes, Maracujá',
           },
           {
-            name: 'Old Habit',
-            price: 'Nikka Days Blended Whiskey, Crème de Banana, Sfumato',
+            name: 'Hábito Antigo',
+            price: 'Whisky Misturado Nikka Days, Creme de Banana, Sfumato',
           },
           {
             name: 'Bimini Cooler',
-            price: 'Gin or Vodka, Twist or Olives ',
+            price: 'Gim ou Vodka, Twist ou Azeitonas',
           },
           {
             name: 'Vesper Bianco',
-            price: 'Neversink Gin, Mezcal, Salers Apéritif',
+            price: 'Gim Neversink, Mezcal, Aperitivo Salers',
           },
           {
-            name: 'Espresso Martini ',
+            name: 'Martini de Espresso',
             price:
-              'Vodka, Mr. Black Coffee Liqueur, Variety Cold-brewed Concentrate',
+              'Vodka, Licor de Café Mr. Black, Variedade de Concentrado Cold-brew',
           },
         ],
       },
@@ -340,13 +364,13 @@ export const tabs = [
   },
   {
     id: 5,
-    tabTitle: 'LITTLE ONES',
+    tabTitle: 'PARA OS PEQUENOS',
     sections: [
       {
-        title: 'MAINS',
+        title: 'PRATOS',
         content: [
           {
-            name: 'Chicken Tenders & Whipped Potatoes',
+            name: 'Frango empanado e Purê de Batatas',
             price: '23',
           },
           {
@@ -354,29 +378,38 @@ export const tabs = [
             price: '16',
           },
           {
-            name: 'Cheese Ravioli with Tomato Sauce',
+            name: 'Ravioli de Queijo ao molho de Tomate',
             price: '15',
           },
         ],
       },
-
       {
-        title: 'BEVERAGES',
+        title: 'BEBIDAS',
         content: [
-          { name: 'Shirley Temple', price: '9' },
-          { name: 'Rhubarb Limeade', price: '10' },
+          {
+            name: 'Shirley Temple',
+            price: '9',
+          },
+          {
+            name: 'Limonada de Ruibarbo',
+            price: '10',
+          },
         ],
       },
-
       {
-        title: 'DESSERT',
-        content: [{ name: 'Ice Cream Sandwich', price: '12' }],
+        title: 'SOBREMESA',
+        content: [
+          {
+            name: 'Sanduíche de Sorvete',
+            price: '12',
+          },
+        ],
       },
     ],
   },
   {
     id: 6,
-    tabTitle: 'WINE LIST',
+    tabTitle: 'VINHOS',
     sections: [
       {
         title: 'CANAVESE BIANCO',
@@ -430,7 +463,7 @@ export const tabs = [
         title: 'VENETO ROSSO',
         content: [
           {
-            name: 'Latium, Campo Leòn Amarone della Valpolicella 2018 ',
+            name: 'Latium, Campo Leòn Amarone della Valpolicella 2018',
             price: '140',
           },
         ],

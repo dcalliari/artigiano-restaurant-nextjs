@@ -26,8 +26,8 @@ export function Carousel({ images }: CarouselProps) {
   return (
     <div className="relative m-4 overflow-hidden">
       <Image
+        className="object-cover"
         fill={true}
-        objectFit="cover"
         src={images[imageIndex].src}
         alt={`Image ${imageIndex}`}
       />
