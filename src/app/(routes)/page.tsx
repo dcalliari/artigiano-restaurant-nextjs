@@ -1,6 +1,6 @@
-import { BoxLeft } from '@/components/box/BoxLeft'
-import { BoxRight } from '@/components/box/BoxRight'
-import { Gallery } from '@/components/gallery'
+import { BoxLeft } from '@/components/Box/BoxLeft'
+import { BoxRight } from '@/components/Box/BoxRight'
+import { Gallery } from '@/components/Gallery'
 
 export default function HomePage() {
   return (

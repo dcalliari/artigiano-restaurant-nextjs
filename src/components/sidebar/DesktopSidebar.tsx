@@ -17,6 +17,7 @@ export function DesktopSidebar({ items }: DesktopSidebarProps) {
     <div className="flex w-full flex-col items-center space-y-10 text-red-400">
       <Link href="/" className="pt-14">
         <Image
+          loading="eager"
           className="w-fit"
           src="/logo.png"
           alt="Logo"

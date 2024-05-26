@@ -1,4 +1,4 @@
-import { Sidebar } from '@/components/sidebar'
+import { Sidebar } from '@/components/Sidebar'
 
 export default function Layout({
   children,
@@ -9,9 +9,7 @@ export default function Layout({
     <>
       <Sidebar />
       <main className="flex overflow-y-auto">
-        <div className="mt-32 flex size-full flex-col lg:ml-64 lg:mt-0">
-          {children}
-        </div>
+        <div className="ml-64 flex size-full flex-col">{children}</div>
       </main>
     </>
   )

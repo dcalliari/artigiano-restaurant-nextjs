@@ -1,8 +1,6 @@
 'use client'
 
-import { Header } from './Header'
 import { DesktopSidebar } from './DesktopSidebar'
-import { useMediaQuery } from 'react-responsive'
 
 type ISidebarItem = {
   name: string
@@ -13,6 +11,10 @@ const items: ISidebarItem[] = [
   {
     name: 'RESERVE',
     path: '/reserve',
+  },
+  {
+    name: 'ORDER NOW!',
+    path: '/order',
   },
   {
     name: 'MENUS',
@@ -41,11 +43,9 @@ const items: ISidebarItem[] = [
 ]
 
 export function Sidebar() {
-  const isDesktop = useMediaQuery({ minWidth: 1024 })
-
   return (
-    <div className="fixed left-0 top-0 z-10 h-screen flex-col justify-center overflow-auto p-8 lg:w-64">
-      {isDesktop ? <DesktopSidebar items={items} /> : <Header items={items} />}
+    <div className="fixed left-0 top-0 z-10 h-screen w-64 flex-col justify-center overflow-auto p-8">
+      <DesktopSidebar items={items} />
     </div>
   )
 }

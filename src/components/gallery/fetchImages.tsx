@@ -8,6 +8,7 @@ export async function FetchImages({ images }: { images: Array<string> }) {
           {images.slice(0, Math.ceil(images.length / 2)).map((el: string) => (
             <li key={el}>
               <Image
+                loading="eager"
                 width={1800}
                 height={1200}
                 alt={el}
@@ -23,6 +24,7 @@ export async function FetchImages({ images }: { images: Array<string> }) {
           {images.slice(Math.ceil(images.length / 2)).map((el: string) => (
             <li key={el}>
               <Image
+                loading="eager"
                 width={1800}
                 height={1200}
                 alt={el}
