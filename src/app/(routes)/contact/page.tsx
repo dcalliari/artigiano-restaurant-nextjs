@@ -12,7 +12,7 @@ const MenuPage = () => {
       <Carousel images={IMAGES} />
       <div className="m-auto block w-[58rem]">
         <h1 className="m-10 text-wrap text-center font-serif text-5xl italic text-white">
-          Contact
+          Contato
         </h1>
         <p className="text-justify font-serif text-lg text-white">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
