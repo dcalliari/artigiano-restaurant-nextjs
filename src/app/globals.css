@@ -77,3 +77,25 @@
   margin: 16px 15px 16px 0px;
   border: 1px solid rgb(181, 34, 34);
 }
+.graybtn {
+  background-color: rgb(24, 26, 27);
+  box-sizing: border-box;
+  outline-offset: 0px;
+  touch-action: manipulation;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12.8px;
+  font-weight: 600;
+  line-height: 19.2px;
+  padding: 16px 16px 12.8px;
+  text-align: center;
+  white-space: nowrap;
+  user-select: none;
+  vertical-align: middle;
+  transition: all 0.2s ease-in-out 0s;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Butler Bold";
+  margin: 16px 15px 16px 0px;
+  border: 1px solid rgb(107 114 128);
+}

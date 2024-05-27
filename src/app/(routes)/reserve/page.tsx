@@ -1,5 +1,5 @@
 import { Carousel } from '@/components/Carousel'
-import { Button } from '@/components/Button'
+import { SideMenu } from '@/components/SideMenu'
 
 import img1 from '../../../../public/images/reserve/01.jpg'
 import img2 from '../../../../public/images/reserve/02.jpg'
@@ -30,7 +30,7 @@ const ReservePage = () => {
           restaurante estiver cheio, teremos prazer em anotar seu nome e número
           e avisar quando uma mesa estiver disponível.
         </p>
-        <Button href="#" title="RESERVAS" />
+        <SideMenu />
       </div>
     </div>
   )

@@ -40,6 +40,16 @@ export function Carousel({ images }: CarouselProps) {
           />
         )}
       </div>
+      <div className="absolute bottom-20 left-1/2 flex -translate-x-1/2 gap-4">
+        <Image
+          loading="eager"
+          className="w-fit"
+          src="/logo-white.png"
+          alt="Logo"
+          width={350}
+          height={0}
+        />
+      </div>
       <div className="absolute bottom-10 left-1/2 flex -translate-x-1/2 gap-4">
         {images.map((_, index) => (
           <button
