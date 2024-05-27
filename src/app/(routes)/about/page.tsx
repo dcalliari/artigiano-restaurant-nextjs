@@ -1,7 +1,8 @@
 import { Carousel } from '@/components/Carousel'
-import img1 from '../../../../public/photos/07.avif'
 
-const IMAGES = [img1, img1, img1]
+import img1 from '../../../../public/images/about/01.jpg'
+
+const IMAGES = [img1]
 
 const AboutPage = () => {
   return (
