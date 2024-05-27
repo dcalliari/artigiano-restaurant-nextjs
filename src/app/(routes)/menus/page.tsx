@@ -1,8 +1,11 @@
 import { Carousel } from '@/components/Carousel'
 import { Tabs } from '@/components/Tabs'
-import img1 from '../../../../public/photos/07.avif'
 
-const IMAGES = [img1, img1, img1]
+import img1 from '../../../../public/images/menus/01.jpg'
+import img2 from '../../../../public/images/menus/02.jpg'
+import img3 from '../../../../public/images/menus/03.jpg'
+
+const IMAGES = [img1, img2, img3]
 
 const MenuPage = () => {
   return (
