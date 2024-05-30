@@ -36,10 +36,6 @@ const items: ISidebarItem[] = [
     name: 'CONTATO',
     path: '/contact',
   },
-  {
-    name: 'TRABALHE CONOSCO',
-    path: '/jobs',
-  },
 ]
 
 export function Sidebar() {

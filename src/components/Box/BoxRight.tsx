@@ -21,6 +21,7 @@ export function BoxRight({
     <div className="m-2 mb-4 flex flex-row">
       <div className="relative mx-2 w-1/2 bg-slate-500">
         <Image
+          loading="lazy"
           src={imageSrc}
           alt="Image"
           fill={true}

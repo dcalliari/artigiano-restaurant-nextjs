@@ -28,6 +28,7 @@ export function BoxLeft({
       </div>
       <div className="relative mx-2 w-1/2 bg-slate-500">
         <Image
+          loading="lazy"
           src={imageSrc}
           alt="Image"
           fill={true}
