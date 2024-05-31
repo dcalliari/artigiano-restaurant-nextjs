@@ -1,3 +1,6 @@
+'use client'
+
+import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import {
   SheetTrigger,
@@ -23,6 +26,23 @@ import {
 import { Calendar } from '@/components/ui/calendar'
 
 export function SideMenu() {
+  const [selectedDate, setSelectedDate] = useState(null)
+  const [selectedPeople, setSelectedPeople] = useState('')
+
+  const handleReservation = () => {
+    if (!selectedPeople) {
+      alert(
+        'Por favor, selecione a quantidade de pessoas antes de fazer a reserva.',
+      )
+      return
+    }
+    if (!selectedDate) {
+      alert('Por favor, selecione uma data antes de fazer a reserva.')
+      return
+    }
+    alert('Reserva feita com sucesso!')
+  }
+
   return (
     <Sheet>
       <SheetTrigger asChild>
@@ -39,7 +59,7 @@ export function SideMenu() {
         <div className="grid gap-4 text-white">
           <div className="grid gap-2">
             <Label htmlFor="pessoas">Quantidade de Pessoas</Label>
-            <Select>
+            <Select onValueChange={setSelectedPeople}>
               <SelectTrigger className="w-full">
                 <SelectValue placeholder="Selecione a quantidade de pessoas" />
               </SelectTrigger>
@@ -59,22 +79,33 @@ export function SideMenu() {
             <Label htmlFor="data">Data</Label>
             <Popover>
               <PopoverTrigger asChild>
-                <Button className="w-full " variant="outline" size="lg">
+                <Button className="w-full" variant="outline" size="lg">
                   <CalendarDaysIcon className="mr-2 size-4 opacity-50" />
-                  Escolha uma Data
+                  {selectedDate
+                    ? selectedDate.toLocaleDateString()
+                    : 'Escolha uma Data'}
                 </Button>
               </PopoverTrigger>
               <PopoverContent
                 align="start"
                 className="w-auto bg-zinc-700 p-0 text-white"
               >
-                <Calendar />
+                <Calendar
+                  onSelectDate={(date) => {
+                    setSelectedDate(date)
+                  }}
+                />
               </PopoverContent>
             </Popover>
           </div>
         </div>
         <SheetFooter>
-          <Button className="w-full" variant="red" size="lg">
+          <Button
+            className="w-full"
+            variant="red"
+            size="lg"
+            onClick={handleReservation}
+          >
             Reservar
           </Button>
           <SheetClose asChild>
