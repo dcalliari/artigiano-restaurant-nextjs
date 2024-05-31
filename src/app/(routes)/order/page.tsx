@@ -1,3 +1,4 @@
+import { CardGrid } from '@/components/CardGrid'
 import { Carousel } from '@/components/Carousel'
 import { Button } from '@/components/Button'
 
@@ -26,6 +27,7 @@ const OrderPage = () => {
           title="iFOOD"
         />
       </div>
+      <CardGrid />
     </div>
   )
 }
